@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #fffdf6;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    color: #5D1951;
+    font-size: 16px; }
+
+h3 {
+  font-family: 'Anton', sans-serif;
+  font-style: bold;
+  font-size: 28px;
+  color: #222222;
+}
+
+h2 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 18px;
+}
+
+p, li {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px; 
+}
+
+    .flex-page {
+      position: fixed;
+      height: 100vh;
+      overflow: hidden;
+    }
+    
+   
+    .side-nav {
+      background: #99ddcc;
+      padding-top: 1.5rem;
+      height: inherit;
+
+    }
+    
+    .side-nav ul {
+      margin: 0;
+      padding: 0;
+    }
+    
+    .side-nav ul li a {
+      padding: 0.75rem 2rem;
+      font-size: 1.2rem;
+      font-family: sans-serif;
+      color: #222222;
+      text-decoration: none;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      display: block;
+  }
+
+  a:hover {
+    background-color: #BEE5E6;
+  }
+
+  .container-0 {
+    width: 50%;
+    float: right;
+    margin-right: 425px;
+    background-color: #ffffff;
+  }
+
+  .card {
+    width: 85%; 
+    overflow: hidden;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    border: 9px solid #FFBAC8;
+    background-color: #D6B2F9;
+    border-radius: 5px;
+    transition: 0.3s;
+    margin: 20px auto 20px auto;
+    /*font-family: 'Nunito', sans-serif; */
+    font-size: 16px;
+    color: #222222;
+  }
+
+
+  .card-header {    
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: left;
+    font-weight: 400;
+    border-bottom: 4px solid #DE759C;
+    background-color: #FFBAC8;
+    padding: 5px 10px;
+  }
+
+  /* Create two equal columns that floats next to each other */
+.visuals {
+  float:left;
+  width: 50%;
+  padding: 20px;
+  display: block;
+}
+
+.Judy {
+  float: left;
+  width: 50%;
+  padding: 20px 20px 20px 0px;
+  display: block;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.okcool {
+  background-color: #FFBAC8;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 10px;
+  padding: 10px;
+  margin: 0px 30px 20px 30px;
+  border: 2px solid #DE759C;
+  flex: 200px;
+  text-align: center;
+}
+
+.okcool:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.main-description:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.quote {
+  padding: 10px 25px 10px 25px;
+}
+
+.photoCollage {
+  display: flex;
+  flex-direction: row;
+}
+
+.photos {
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 10px;
+  flex: 200px;
+}
+
+.hoop {
+  float: right;
+}
+
+.hoop, .facts-list, .hoopimg {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+}
+section.container-2 { 
+  background: #000000;
+  width: 100%;
+  padding: 20px;
+  height: 550px;
+}
+
+
+.facts-list {
+  background-color: #000000;
+  /* font-family: 'Nunito', sans-serif; */  
+  font-size: 16px; 
+  color: #f3f8ff;
+  padding-top: 130px;
+  padding-bottom: 70px;
+}
+
+
+
+
+
+    
+
+
+  
