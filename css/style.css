@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #fffdf6;
+    background-color: #F3F0EB;
     margin: 0;
 }
 
@@ -12,105 +12,114 @@ h1 {
     color: #5D1951;
     font-size: 16px; }
 
-h3 {
-  font-family: 'Literata', serif;
-  font-size: 28px;
-  color: #222222;
-}
-
-h2 {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 18px;
+h2, h3 {
+  font-family: 'Varela Round', sans-serif;
 }
 
 p, li {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px; 
+  font-family: 'Varela Round', sans-serif;
+  font-size: 18px; 
 }
 
-    .flex-page {
-      position: fixed;
-      height: 100vh;
-      overflow: hidden;
-    }
-    
-   
-    .side-nav {
-      background: #99ddcc;
-      padding-top: 1.5rem;
-      height: inherit;
-
-    }
-    
-    .side-nav ul {
-      margin: 0;
-      padding: 0;
-    }
-    
-    .side-nav ul li a {
-      padding: 0.75rem 2rem;
-      font-size: 1.2rem;
-      font-family: sans-serif;
-      color: #222222;
-      text-decoration: none;
-      cursor: pointer;
-      transition: all 0.2s ease;
-      display: block;
-  }
-
-  a:hover {
-    background-color: #BEE5E6;
-  }
-
-  .container-0 {
-    width: 50%;
-    float: right;
-    margin-right: 425px;
-    background-color: #ffffff;
-  }
-
-  .card {
-    width: 85%; 
-    overflow: hidden;
-    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
-    border: 9px solid #FFBAC8;
-    background-color: #D6B2F9;
-    border-radius: 5px;
-    transition: 0.3s;
-    margin: 20px auto 20px auto;
-    /*font-family: 'Nunito', sans-serif; */
-    font-size: 16px;
-    color: #222222;
-  }
+.nav-bar {
+  position: fixed;
+  height: 100vh;
+  overflow: hidden;
+}
 
 
-  .card-header {    
-    font-family: 'Press Start 2P', cursive;
-    font-size: 20px;
-    color: #ffffff;
-    text-align: left;
-    font-weight: 400;
-    border-bottom: 4px solid #DE759C;
-    background-color: #FFBAC8;
-    padding: 5px 10px;
-  }
+.side-nav {
+  background: #ECD0CF;
+  padding-top: 1.5rem;
+  height: inherit;
+  box-shadow: 0 20px 0px 0 rgba(0,0,0,0.2);
+}
 
-  /* Create two equal columns that floats next to each other */
-.visuals {
-  float:left;
+.side-nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.side-nav ul li a {
+  padding: 0.75rem 2rem;
+  font-size: 1.2rem;
+  font-family: 'Varela Round', sans-serif;
+  color: #053540;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: block;
+}
+
+a:hover {
+  background-color: #A6A5B5;
+}
+
+.container-0 {
+  width: 80%;
+  float: right;
+  margin-right: 120px;
+  background-color: #ffffff;
+}
+
+.banner {
+  display: flex;
+  width: 600px;
+  background-color: #A6A5B5;
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+  float: right;
+  flex-direction: row;
+}
+
+.skills {
+  display: flex;
+  align-items: center;
+}
+
+.card-exe {
+  width: 600px; 
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border: 9px solid #FFBAC8;
+  background-color: #D6B2F9;
+  border-radius: 15px 15px 5px 5px;
+  /*transition: 0.3s;*/
+  font-size: 16px;
+  color: #222222;
+  position: absolute;
+  right: 400px;
+  bottom: -340px;
+}
+
+.card-header {    
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: left;
+  font-weight: 400;
+  border-bottom: 4px solid #DE759C;
+  background-color: #FFBAC8;
+  padding: 5px 10px;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.visuals-2 {
   width: 50%;
   padding: 20px;
-  display: block;
 }
 
 .Judy {
-  float: left;
   width: 50%;
   padding: 20px 20px 20px 0px;
-  display: block;
 }
 
-.buttons {
+.card-buttons {
   display: flex;
   flex-direction: row;
 }
@@ -130,26 +139,34 @@ p, li {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.main-description:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .quote {
-  padding: 10px 25px 10px 25px;
+  margin: 50px;
+  border-left: 3px solid #ECD0CF;
+  padding: 30px;
+  font-size: 22px;
+  display: flex;
+  position: relative;
+  top: 70px;
+  color: #2e2e2e;
 }
 
 .photoCollage {
   display: flex;
   flex-direction: row;
+  position: relative;
+  margin: 10px;
+  top: 430px;
+  background-color: #ffe2e2;
 }
 
 .photos {
-  background-color: #ffffff;
+  background-color: #f3f8ff;
   padding: 10px;
-  margin: 10px;
+  margin: 45px 10px 10px 10px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   flex: 200px;
+  align-items: stretch;
 }
 
 .hoop {
@@ -166,17 +183,20 @@ section.container-2 {
   width: 100%;
   padding: 20px;
   height: 550px;
+  position: relative;
+  top: 500px;
 }
 
 
 .facts-list {
   background-color: #000000;
-  /* font-family: 'Nunito', sans-serif; */  
   font-size: 16px; 
   color: #f3f8ff;
   padding-top: 130px;
   padding-bottom: 70px;
 }
+
+
 
 
 
